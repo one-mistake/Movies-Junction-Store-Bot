@@ -8,11 +8,11 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL")
 	BOT_OWNER = int(os.environ.get("BOT_OWNER"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY"))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -32,9 +32,9 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍💻 **Developer:** @HackingCraze_Papa
 
-👥 **Support Group:** [Save Restricted Bot](https://telegram.me/SaveRestrictedContent_byTGSBot)
+👥 **Support Channel:** [Hacking Craze](https://telegram.me/HackingCraze24_7d)
 
-📢 **Updates Channel:** [Hacking Craze](https://telegram.me/HackingCraze24_7d)
+📢 **Updates Channel:** [TGS Bots](https://telegram.me/TGSBots)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @HackingCraze_Papa
