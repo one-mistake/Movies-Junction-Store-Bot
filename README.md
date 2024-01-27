@@ -1,6 +1,6 @@
-# PyroFilesStoreBot
+# Pyro Movies Junction Store Bot
 
-This is Telegram Parmanent Files Store Bot by [@](https://github.com/one-mistake).
+This is Movies Junction Files Store Bot by [@](https://github.com/one-mistake).
 
 - **Language:** [Python3](https://www.python.org)
 - **Library:** [Pyrogram](https://docs.pyrogram.org)
@@ -34,7 +34,7 @@ This is Telegram Parmanent Files Store Bot by [@](https://github.com/one-mistake
 - `LOG_CHANNEL` - Logs Channel ID
   - This for some getting user info. If any new User added to DB, Bot will send Log to that Logs Channel. You can use same DB Channel ID.
 - `FORWARD_AS_COPY` - Value should be `True` or `False` _(Optional)_
-  - If `True` all messages will be forwarder _As Copy_. If `False` all messages will be forwarder with Forward Tag.
+  - If `True` all messages will be forwarded _As Copy_. If `False` all messages will be forwarded with Forward Tag.
 - `BROADCAST_AS_COPY` - Value should be `True` or `False` _(Optional)_ - Broadcast with Forward Tag or as Copy._(Without Forward Tag)_
 - `BANNED_USERS` - Banned unwanted members - Put all banned user IDs & Separate with space.
 - `BANNED_CHAT_IDS` - All Banned Channel IDs _(Optional)_

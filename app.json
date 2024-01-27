@@ -1,8 +1,8 @@
 {
-  "name": "Telegram Files Store Bot",
-  "description": "A Telegram Files Store Bot in Pyrogram by @AbirHasan2005",
+  "name": "Movies Junction Store Bot",
+  "description": "A Telegram Files Store Bot in Pyrogram by @HackingCraze_Papa",
   "keywords": ["telegram", "files", "store", "bot"],
-  "repository": "https://github.com/one-mistake/TGS-FileStoreBot",
+  "repository": "https://github.com/one-mistake/Movies-Junction-Store-Bot",
   "website": "https://telegram.dog/HackingCraze_Papa",
   "success_url": "https://telegram.me/HakingCraze24_7d",
   "env": {
@@ -47,7 +47,7 @@
       "required": false
     },
     "FORWARD_AS_COPY": {
-      "description": "If True all messages will be forwarder As Copy. If False all messages will be forwarder with Forward Tag. Value should be True/False !!",
+      "description": "If True all messages will be forwarded As Copy. If False all messages will be forwarded with Forward Tag. Value should be True/False !!",
       "required": false
     }
   },
