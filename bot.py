@@ -74,12 +74,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("TGS bots", url="https://telegram.me/TGSBots"),
-                        InlineKeyboardButton("Hacking Craze", url="https://telegram.me/HackingCraze24_7d")
+                        InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots"),
+                        InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -120,7 +120,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [TGS bots](https://telegram.me/TGSBots)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [TGS Bots 🤖](https://telegram.me/TGSBots)",
                                      disable_web_page_preview=True)
             return
 
@@ -318,8 +318,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://github.com/one-mistake/Movies-Junction-Store-Bot/")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("Go Home 🏠", callback_data="gotohome"),
+                        InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("Go Home 🏠", callback_data="gotohome")
                     ]
                 ]
             )
@@ -350,12 +350,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("TGS bots", url="https://telegram.me/TGSBots"),
-                        InlineKeyboardButton("Hacking Craze", url="https://telegram.me/HackingCraze24_7d")
+                        InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots"),
+                        InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -371,7 +371,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [TGS bots](https://telegram.me/TGSBots).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [TGS Bots 🤖](https://telegram.me/TGSBots).",
                         disable_web_page_preview=True
                     )
                     return
@@ -394,7 +394,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [TGS bots](https://telegram.me/TGSBots).",
+                    text="Something went Wrong. Contact my [TGS Bots 🤖](https://telegram.me/TGSBots).",
                     disable_web_page_preview=True
                 )
                 return
@@ -404,12 +404,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("TGS bots", url="https://telegram.me/TGSBots"),
-                        InlineKeyboardButton("Hacking Craze", url="https://telegram.me/HackingCraze24_7d")
+                        InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots"),
+                        InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
