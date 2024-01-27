@@ -78,7 +78,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
@@ -314,7 +314,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
+                        InlineKeyboardButton("Source Codes of Bot ©️",
                                              url="https://github.com/one-mistake/Movies-Junction-Store-Bot/")
                     ],
                     [
@@ -332,11 +332,11 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
+                        InlineKeyboardButton("Source Codes of Bot ©️",
                                              url="https://github.com/one-mistake/Movies-Junction-Store-Bot/")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
                         InlineKeyboardButton("Go Home 🏠", callback_data="gotohome")
                     ]
                 ]
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
@@ -408,7 +408,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
