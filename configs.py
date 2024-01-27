@@ -19,10 +19,10 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""__
-This is Movies Junction Store Bot!
+#️⃣ This is **Movies Junction Store Bot!**
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://telegram.me/{BOT_USERNAME})
+🤖 **My Name:** [Movies Junction Store Bot](https://telegram.me/{BOT_USERNAME})
 
 📝 **Language:** [Python3](https://www.python.org)
 
@@ -45,9 +45,9 @@ Also remember that developer will Delete Adult Contents from Database. So better
 
 """
 	HOME_TEXT = """__
-Hi, [{}](tg://user?id={})\n\nThis is **Movies Junction Store Bot**.
+👋 Hi, [{}](tg://user?id={}) ,\nThis is **Movies Junction Store Bot**.
 
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
+🔗 Send me any file I will give you a permanent Sharable Link. To Support Channel Also! Check **About Bot** Button.
 
-**For More Movies Join : @Movies_Junction_Reborn2**__
+**#️⃣ For More Movies Join : @Movies_Junction_Reborn2**__
 """
