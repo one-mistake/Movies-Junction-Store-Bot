@@ -45,7 +45,7 @@ Also remember that developer will Delete Adult Contents from Database. So better
 
 """
 	HOME_TEXT = """__
-Hi 👋 , [{}](tg://user?id={}) ,\nThis is **[Movies Junction Store Bot](https://telegram.me/Movies_Junction_Store_Bot)**.
+Hi 👋 , [{}](tg://user?id={}) ,\nThis is """ + f"""**[Movies Junction Store Bot](https://telegram.me/{BOT_USERNAME})**.
 
 🔗 Send me any file I will give you a permanent Sharable Link. To Support Channel Also! Check **About Bot 🤖** Button.
 
