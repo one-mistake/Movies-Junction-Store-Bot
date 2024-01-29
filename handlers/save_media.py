@@ -1,6 +1,7 @@
 # (c) @one-mistake
 
 import asyncio
+import requests
 from configs import Config
 from pyrogram import Client
 from pyrogram.types import (
@@ -49,13 +50,17 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=TGSBots_{str_to_b64(str(SaveMessage.id))}"
+        long_URL = f"https://telegram.me/{Config.BOT_USERNAME}?start=TGSBots_{str_to_b64(str(SaveMessage.id))}"
+        URL = f"https://gplinks.in/api?api=057b230dcbd5ebb9dba5fc2191e972d15d0cdd41&url={long_URL}"
+        r = requests.get(url = URL)
+        data = r.json()
+        share_link = f"{data['shortenedUrl']}"
         await editable.edit(
-            f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: {share_link} \n\n"
-            f"Just Click the link to get your files!",
+            f"**__Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: {share_link} \n\n__"
+            f"__Just Click the link to get your files!__",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("🔗 Open Link 🔗", url=share_link)],
-                 [InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d"),
+                 [InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2"),
                   InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots")]]
             ),
             disable_web_page_preview=True
@@ -87,14 +92,18 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         await forwarded_msg.reply_text(
             f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
             disable_web_page_preview=True)
-        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=TGSBots_{str_to_b64(file_er_id)}"
+        long_URL = f"https://telegram.me/{Config.BOT_USERNAME}?start=TGSBots_{str_to_b64(file_er_id)}"
+        URL = f"https://gplinks.in/api?api=057b230dcbd5ebb9dba5fc2191e972d15d0cdd41&url={long_URL}"
+        r = requests.get(url = URL)
+        data = r.json()
+        share_link = f"{data['shortenedUrl']}"
         await editable.edit(
-            "**Your File Stored in my Database!**\n\n"
-            f"Here is the Permanent Link of your file: {share_link} \n\n"
-            "Just Click the link to get your file!",
+            "**__Your File Stored in my Database!**\n\n__"
+            f"__Here is the Permanent Link of your file: {share_link} \n\n__"
+            "__Just Click the link to get your file!__",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d"),
+                 [InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2"),
                   InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots")]]
             ),
             disable_web_page_preview=True

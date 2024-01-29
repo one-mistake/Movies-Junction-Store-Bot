@@ -32,7 +32,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍💻 **Developer:** @HackingCraze_Papa
 
-👥 **Support Channel:** [Hacking Craze](https://telegram.me/HackingCraze24_7d)
+👥 **Support Channel:** [Movies Junction 2.0 👑](https://telegram.me/Movies_Junction_Reborn2)
 
 📢 **Updates Channel:** [TGS Bots](https://telegram.me/TGSBots)__
 """
@@ -45,7 +45,7 @@ Also remember that developer will Delete Adult Contents from Database. So better
 
 """
 	HOME_TEXT = """__
-👋 Hi, [{}](tg://user?id={}) ,\nThis is **Movies Junction Store Bot**.
+Hi 👋 , [{}](tg://user?id={}) ,\nThis is **[Movies Junction Store Bot](https://telegram.me/{BOT_USERNAME})**.
 
 🔗 Send me any file I will give you a permanent Sharable Link. To Support Channel Also! Check **About Bot 🤖** Button.
 

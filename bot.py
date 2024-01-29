@@ -75,7 +75,7 @@ async def start(bot: Client, cmd: Message):
                 [
                     [
                         InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots"),
-                        InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d")
+                        InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2")
                     ],
                     [
                         InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
@@ -315,7 +315,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot ©️",
-                                             url="https://github.com/one-mistake/Movies-Junction-Store-Bot/")
+                                             url="https://github.com/one-mistake/TGS-FileStoreBot/")
                     ],
                     [
                         InlineKeyboardButton("Go Home 🏠", callback_data="gotohome"),
@@ -333,7 +333,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot ©️",
-                                             url="https://github.com/one-mistake/Movies-Junction-Store-Bot/")
+                                             url="https://github.com/one-mistake/TGS-FileStoreBot/")
                     ],
                     [
                         InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
@@ -351,7 +351,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots"),
-                        InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d")
+                        InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2")
                     ],
                     [
                         InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
@@ -405,7 +405,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots"),
-                        InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d")
+                        InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2")
                     ],
                     [
                         InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
