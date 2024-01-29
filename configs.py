@@ -32,7 +32,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍💻 **Developer:** @HackingCraze_Papa
 
-👥 **Support Channel:** [Movies Junction 2.0 👑](https://telegram.me/Movies_Junction_Reborn2)
+👥 **Support Channel:** [Movies Junction 👑](https://telegram.me/Movies_Junction_Reborn2)
 
 📢 **Updates Channel:** [TGS Bots](https://telegram.me/TGSBots)__
 """

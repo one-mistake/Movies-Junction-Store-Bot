@@ -60,7 +60,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             f"__Just Click the link to get your files!__",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("🔗 Open Link 🔗", url=share_link)],
-                 [InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2"),
+                 [InlineKeyboardButton("Movies Junction 👑", url="https://telegram.me/Movies_Junction_Reborn2"),
                   InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots")]]
             ),
             disable_web_page_preview=True
@@ -103,7 +103,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             "__Just Click the link to get your file!__",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2"),
+                 [InlineKeyboardButton("Movies Junction 👑", url="https://telegram.me/Movies_Junction_Reborn2"),
                   InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots")]]
             ),
             disable_web_page_preview=True

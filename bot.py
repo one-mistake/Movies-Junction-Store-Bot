@@ -75,7 +75,7 @@ async def start(bot: Client, cmd: Message):
                 [
                     [
                         InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots"),
-                        InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2")
+                        InlineKeyboardButton("Movies Junction 👑", url="https://telegram.me/Movies_Junction_Reborn2")
                     ],
                     [
                         InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
@@ -351,7 +351,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots"),
-                        InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2")
+                        InlineKeyboardButton("Movies Junction 👑", url="https://telegram.me/Movies_Junction_Reborn2")
                     ],
                     [
                         InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
@@ -405,7 +405,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots"),
-                        InlineKeyboardButton("Movies Junction 2.0 👑", url="https://telegram.me/Movies_Junction_Reborn2")
+                        InlineKeyboardButton("Movies Junction 👑", url="https://telegram.me/Movies_Junction_Reborn2")
                     ],
                     [
                         InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
